@@ -44,13 +44,22 @@ a:hover {
     padding-right: 0;
 }
 
+#bloc-0 {
+    background-color: rgb(242, 151, 108);
+    padding-bottom: 20px;
+}
+
 .bloc-lg {
+    
     padding: 100px 50px;
 }
 
 .bloc-md {
+    
     padding: 50px;
 }
+
+.container .bloc-sm
 
 .bloc-sm {
     padding: 20px 50px;
@@ -73,6 +82,7 @@ a:hover {
 }
 
 .bg-repeat {
+    
     background: repeat;
 }
 
