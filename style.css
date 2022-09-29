@@ -7,6 +7,33 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+#headerFlex {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#headerFlex a {
+    width: 80%;
+    padding: 0;
+    border: 1px solid red;
+
+}
+
+#headerFlex img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   
+    
+}
+#headerFlex .navbar-toggle {
+   
+    margin: 0;
+}
+
+
+
 a,
 button {
     transition: all .3s ease-in-out;
