@@ -11,6 +11,24 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+#headerFlex {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#headerFlex a {
+    width: 80%;
+    padding: 0;
+}
+
+#headerFlex .navbar-toggle {
+   
+    margin: 0;
+}
+
+
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -697,12 +715,20 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
-
-.social {
+/* Ajout */
+#social {
+    display: flex;
+    width: 40%;
     max-width: 400px;
-    margin: auto auto auto auto;
+    justify-content: center;
+    margin: auto;
 }
 
+#social a {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+/*Ajout*/
 h2 {
     font-size: 22px;
     line-height: 1.4em;
