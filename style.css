@@ -2,6 +2,23 @@
 L651
 */
 
+/*Ajout width height images*/
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+.col-sm-12 img {
+    width: 28%;
+    height: auto;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: auto;
+}
+
 body {
     margin: 0;
     padding: 0;
