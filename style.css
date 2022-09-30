@@ -19,6 +19,29 @@ article img {
     height: auto;
 }
 
+/*Ajout font-size > 12px */
+
+.presentation {
+    font-size: 20px
+}
+
+#maxime {
+    font-size: 18px;
+}
+
+
+#contactEquipe {
+    padding: 10px 5px 10px 5px;
+    display: block;
+    width: 100%;
+    min-width: 210px;
+    text-transform: none;
+    text-align: center;
+    margin-left: auto !important; 
+    margin-right: auto !important; 
+    text-align: center;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -711,7 +734,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
