@@ -42,6 +42,15 @@ article img {
     text-align: center;
 }
 
+/* Ajout contraste */
+
+blockquote {
+    color: black;
+}
+
+
+
+
 body {
     margin: 0;
     padding: 0;
