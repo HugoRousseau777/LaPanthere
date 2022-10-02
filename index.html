@@ -39,8 +39,8 @@ Ligne 227 style + retirer le white de la classe
 <div class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
-			<div class="navbar-header" id="headerFlex">
-				<a class="navbar-brand" href="index.html"><img src="images/lapantheremonochrome.avif" alt="logo agence web la panthère" height="40" /></a>
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"><img src="images/lapantheremonochrome.avif" alt="logo agence web la panthère"/></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -48,10 +48,10 @@ Ligne 227 style + retirer le white de la classe
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
+						<a href="index.html" class="liensHeader">Accueil</a>
 					</li>
 					<li>
-						<a href="contact.html">Contact</a>
+						<a href="contact.html" class="liensHeader">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -84,7 +84,7 @@ Ligne 227 style + retirer le white de la classe
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<p class="presentation">L'agence la panthère est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet</p>
+				<p class="presentation">L'agence la panthère est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.</p>
 			</div>
 		</div>
 		<div class="row voffset-lg med-width-whitespace">
@@ -138,12 +138,13 @@ Ligne 227 style + retirer le white de la classe
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
-				<h3 class="mg-md text-center tc-white">
+				<h3 class="mg-md text-center tc-white" id="souhait">
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .
 				</h3>
 				<p class="text-center white">
-					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="btn-rd cta-hero btn-atomic-tangerine" href="contact.html" id="contactEquipe">Contactez notre équipe</a><br>
+					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche.
 				</p>
+				<a class="btn-rd cta-hero btn-atomic-tangerine" href="contact.html" id="contactEquipe">Contactez notre équipe</a>
 			</div>
 		</div>
 	</div>
@@ -155,13 +156,13 @@ Ligne 227 style + retirer le white de la classe
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<p>Nous travaillons avec beaucoup de clients, voici nos réalisations.</p>
+				<p id="realisations">Nous travaillons avec beaucoup de clients, voici nos réalisations.</p>
 			</div>
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<article class="col-sm-6">
 				<a href="#" data-lightbox="images/sitejournalistique.avif" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="images/sitejournalistique.avif" alt="Site journalistique" class="img-responsive portfolio-thumb" /></a>
-				<h4 class="mg-md text-center">
+				<h4 class="projets mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h4>
 				<p class="text-center">
@@ -170,7 +171,7 @@ Ligne 227 style + retirer le white de la classe
 			</article>
 			<article class="col-sm-6">
 				<a href="#" data-lightbox="images/sitePhotographie.avif" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="images/sitePhotographie.avif" class="img-responsive portfolio-thumb" alt="Création d'un site web pour photographes" /></a>
-				<h4 class="mg-md text-center">
+				<h4 class="projets mg-md text-center">
 					Création d'un site web pour photographes
 				</h4>
 				<p class="text-center">
@@ -181,7 +182,7 @@ Ligne 227 style + retirer le white de la classe
 		<div class="row tight-width-whitespace portfolio-row">
 			<article class="col-sm-6">
 				<a href="#" data-lightbox="images/sitevoyageurs.avif" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="images/sitevoyageurs.avif" class="img-responsive portfolio-thumb" alt="Site web pour voyageur"/></a>
-				<h4 class="mg-md text-center">
+				<h4 class="projets mg-md text-center">
 					Création d'un site internet pour un voyageur
 				</h4>
 				<p class="text-center">
@@ -190,7 +191,7 @@ Ligne 227 style + retirer le white de la classe
 			</article>
 			<article class="col-sm-6">
 				<a href="#" data-lightbox="images/sitemarriage.avif" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="images/sitemarriage.avif" class="img-responsive portfolio-thumb" alt="Site web pour agence de mariage" /></a>
-				<h4 class="mg-md text-center">
+				<h4 class="projets mg-md text-center">
 					Conception d'un site pour une agence de mariage
 				</h4>
 				<p class="text-center">
@@ -208,7 +209,7 @@ Ligne 227 style + retirer le white de la classe
 <aside class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<div class="row">
-			<p class="mg-md text-center tc-white" style="font-size: 20px;">
+			<p class="mg-md text-center tc-white" id="redonnerVie">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</p>
 			<div class="col-sm-12 text-center">

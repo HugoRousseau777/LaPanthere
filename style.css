@@ -9,41 +9,52 @@ article img {
     height: auto;
 }
 
-.col-sm-12 img {
-    width: 28%;
+
+
+.navbar-brand  {
     height: auto;
 }
-
-.navbar-brand img {
-    width: 100%;
+.navbar-brand img  {
     height: auto;
+    max-height: 40px;
 }
 
 /*Ajout font-size > 12px */
 
 .presentation {
-    font-size: 28px;
-    color: black;
-    opacity: 0.9;
+    line-height: 100%;
+    margin: auto;
+    margin-bottom: 0.6em;
+    width: 65%;
+    font-size: 21px;
+    color: rgb(86, 85, 85);
+    font-weight: 500;
+    opacity: 0.8;
 }
 
 blockquote {
+    width: 90%;
+    margin: auto;
     color: rgb(60, 60, 60);
-    font-size: 28px;
+    font-size: 19px;
+    font-weight: 500;
+    opacity: 0.8;
     margin-bottom: 0;
+    line-height: 100%;
+    border-left: none;
 }
 
 #maxime {
-    font-size: 26px;
-    opacity: 0.8;
+    margin-top: -10px;
+    font-size: 19px;
+    opacity: 0.7;
+    line-height: 100%;
 }
 
 
 #contactEquipe {
-    padding: 10px 5px 10px 5px;
+    padding: 15px 10px 15px 10px;
     display: block;
-    width: 100%;
-    min-width: 210px;
     text-transform: none;
     text-align: center;
     margin-left: auto !important; 
@@ -51,12 +62,45 @@ blockquote {
     text-align: center;
 }
 
+
+#realisations {
+    width: 90%;
+    font-size: 22px;
+    color: rgb(60, 60, 60);
+    margin: auto;
+    margin-bottom: 2em;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
 /* Ajout contraste */
 
 
+/* Conformisation */
 
+#souhait {
+    text-transform: none;
+    font-weight: 400;
+    font-family: "helvetica";
+    line-height: 1.4em;
+    font-size: 22px;
+}
 
+#projets {
+    margin-top: 0px;
+}
 
+#redonnerVie {
+    font-weight: 400;
+    line-height: 1.4em;
+    font-size: 22px;
+    text-transform: none;
+}
+
+.col-sm-12 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
 
 body {
     margin: 0;
@@ -67,16 +111,33 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-#headerFlex {
+.navbar { 
     
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+
+
+.navbar a {
+    
+    width: 20%;
+    margin: 0;
+    
 }
-#headerFlex a {
-    width: 80%;
+#headerFlex li {
+    border: 10px solid green;
+    width: 20%;
+    margin: 0;
+    
+}
+
+.liensHeader {
+    
     padding: 0;
+    margin: 0;
 }
+
+
 
 #headerFlex .navbar-toggle {
    
@@ -130,7 +191,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 0px 50px;
 }
 
 .bg-center,
@@ -370,6 +431,7 @@ a:hover {
 }
 
 .navbar-brand {
+    
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
@@ -379,7 +441,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    
+    
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -401,7 +464,7 @@ a:hover {
 
 .nav > li {
     float: left;
-    margin-top: 4px;
+    margin-top: -2px;
     font-size: 16px;
 }
 
@@ -458,9 +521,7 @@ a:hover {
     .nav-center {
         text-align: center;
     }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
+    
     .nav-center .navbar-header,
     .nav-center .navbar-brand,
     .nav-center .nav > li {
@@ -513,8 +574,17 @@ nav .caret {
 }
 
 .mg-md {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+/*Ajout conformisation*/
+
+.projets {
+    margin-bottom: 10px;
 }
 
 .mg-lg {
@@ -821,12 +891,16 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin-bottom: 5px; /*ajout conformisation*/
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-bottom: 0px; /*marge à 0 => conformisation*/
+    margin-top: 0;
+}
+
+article {
+    margin-bottom: 3em;
 }
 
 .avatar {
