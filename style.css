@@ -14,7 +14,6 @@ article img {
 }
 
 .page-container {
-    border: 1px solid red;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -1049,8 +1048,7 @@ article {
 }
 
 .bg-dots-bg {
-    
-    background-image: url("images/lines-h2-bg.png");
+    background-image: url("images/lignes.avif");
 }
 
 .bg-lines-h2-bg {
