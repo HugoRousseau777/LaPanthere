@@ -145,9 +145,11 @@ blockquote {
 #h1P {
     font-size: 16px;
     font-weight: 700;
+    color: #dec2b5;
 }
 
 #h1Contact {
+    color: #dec2b5;
     margin-top: 0;
     font-weight: 800;
 }
@@ -1013,7 +1015,7 @@ article {
 }
 
 .tc-white {
-    color: #dec2b5!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
@@ -1048,6 +1050,7 @@ article {
 }
 
 .bg-dots-bg {
+    
     background-image: url("images/lignes.avif");
 }
 
