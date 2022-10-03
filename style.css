@@ -133,13 +133,14 @@ blockquote {
 
 /*Contact*/
 
-#containerContact {
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
 #bloc-6 {
     max-height: 250px;
+}
+
+#containerContact {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-bottom: 3em;
 }
 
 #h1P {
@@ -152,13 +153,6 @@ blockquote {
     font-weight: 800;
 }
 
-
-form button:hover {
-    cursor: pointer;
-}
-
-
-
 #flexForm {
     width: 100%;
 }
@@ -168,6 +162,19 @@ form button:hover {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-bottom: 5em;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+input {
+    margin-bottom: 2em;
+}
+
+form button:hover {
+    cursor: pointer;
 }
 
 .titreFooter {
@@ -176,6 +183,7 @@ form button:hover {
 
 .textFooter {
     color: rgb(55, 55, 55);
+    margin-bottom: 1em;
 }
 
 body {
@@ -1058,7 +1066,11 @@ article {
 }
 
 .sizeContact {
+    margin-top: 3em;
+    background-color: #F3976C;
     font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(55, 55, 55);
 }
 
 @media (max-width: 1024px) {
