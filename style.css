@@ -148,6 +148,14 @@ form button:hover {
     text-align: center;
 }
 
+.titreFooter {
+    font-size: 16px;
+}
+
+.textFooter {
+    color: rgb(55, 55, 55);
+}
+
 body {
     margin: 0;
     padding: 0;
