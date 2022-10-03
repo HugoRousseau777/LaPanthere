@@ -133,9 +133,31 @@ blockquote {
 
 /*Contact*/
 
+#containerContact {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#bloc-6 {
+    max-height: 250px;
+}
+
+#h1P {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#h1Contact {
+    margin-top: 0;
+    font-weight: 800;
+}
+
+
 form button:hover {
     cursor: pointer;
 }
+
+
 
 #flexForm {
     width: 100%;
@@ -984,7 +1006,7 @@ article {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #dec2b5!important;
 }
 
 .btn-atomic-tangerine {
@@ -1033,6 +1055,10 @@ article {
 
 .bg-presentation {
     background-image: url("images/travailbureau.avif");
+}
+
+.sizeContact {
+    font-weight: 900;
 }
 
 @media (max-width: 1024px) {
