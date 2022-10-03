@@ -55,7 +55,7 @@ blockquote {
 }
 
 #maxime {
-    margin-top: -10px;
+    margin-top: 5px;
     font-size: 19px;
     opacity: 0.7;
     line-height: 100%;
@@ -90,17 +90,22 @@ blockquote {
 /* Conformisation */
 
 .navbar {
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
 .col-sm-12 {
     padding: 0;
     margin-top: 0;
 }
+
+.col-sm-12 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 #souhait {
     text-transform: none;
