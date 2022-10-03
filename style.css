@@ -24,13 +24,15 @@ article img {
 .presentation {
     line-height: 100%;
     margin: auto;
-    margin-bottom: 0.6em;
+    margin-bottom: 1em;
+    margin-top: -1em;
     width: 65%;
     font-size: 21px;
     color: rgb(86, 85, 85);
     font-weight: 500;
     opacity: 0.8;
 }
+
 
 blockquote {
     width: 90%;
@@ -68,7 +70,8 @@ blockquote {
     font-size: 22px;
     color: rgb(60, 60, 60);
     margin: auto;
-    margin-bottom: 2em;
+    margin-top: -2em;
+    margin-bottom: 1em;
     font-weight: 500;
     opacity: 0.8;
 }
@@ -77,6 +80,11 @@ blockquote {
 
 
 /* Conformisation */
+
+.col-sm-12 {
+    padding: 0;
+    margin-top: 0;
+}
 
 #souhait {
     text-transform: none;
@@ -98,8 +106,12 @@ blockquote {
 }
 
 .col-sm-12 {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+#asideFinal {
+    margin-top: -6em;
 }
 
 body {
@@ -190,8 +202,8 @@ a:hover {
     padding: 50px;
 }
 
-.bloc-sm {
-    padding: 0px 50px;
+#footerPadding {
+    padding: 2em 50px;
 }
 
 .bg-center,
@@ -407,7 +419,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 .row-no-gutters {
